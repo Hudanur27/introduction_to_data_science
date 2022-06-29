@@ -1,0 +1,18 @@
+Veri Bilimi: Yapay zekanın bir alt kümesidir. Verilerden anlamlı bilgi çıkarma, verilerden değer elde etmek üzere bilimsel yöntemleri kullanmak ve iç görü elde etmektir.
+
+Makine Öğrenimi: Yapay zekanın diğer alt kümesidir. Verilere erişebilen ve bunları kendileri için kullanabilen bilgisayar programlarının geliştirilmesine odaklanır.
+
+Denetimli makine öğrenimi, belirsizlik dahilinde kanıta dayalı tahminler yapan bir model oluşturur. Denetimli bir öğrenme algoritması bilinen bir girdi verisi seti ve verilere bilinen yanıtları alır, ardından yeni verilere yanıt için makul tahminler oluşturmak üzere bir modeli eğitir.
+
+Gözetimsiz (denetimsiz) öğrenme, modeli denetlemenize gerek olmayan bir makine öğrenme tekniğidir. Bunun yerine, modelin bilgileri keşfetmek için kendi başına çalışmasına izin vermeniz gerekir. Denetimsiz öğrenme algoritmaları, denetimli öğrenmeye kıyasla daha karmaşık işleme görevleri gerçekleştirmenizi sağlar. Denetimsiz öğrenmede sistem öğretilmiyor, verilerden öğreniyor. Denetimsiz makine öğrenimi, verilerdeki bilinmeyen her türlü paterni bulur. Denetimsiz yöntemler, kategorizasyon için yararlı olabilecek özellikleri bulmanıza yardımcı olur.
+
+Sınıflandırma ve regresyon, toplanan veriden tahmin modelleri oluşturmak için öğrenme teknikleridir. Her iki teknik de grafiksel olarak sınıflandırma ve regresyon ağaçları olarak veya daha ziyade her adımdan sonra bölümler halinde olan akış şemaları olarak veya daha ziyade ağaçta "dal" olarak sunulmaktadır
+
+Regresyon
+Regresyon, varsayılan veya bilinen sayısal çıktı değerine dayanan bir tahmin yöntemidir. Bu çıktı değeri, her adımın bir sayısal değere sahip olduğu bir dizi özyinelemeli bölümlemenin sonucu ve bunun gibi başka bir çifte ayrılan bağımlı değişkenlerin başka bir grubu sonucudur. Regresyon ağacı, bir veya daha fazla öncü değişken ile başlar ve bir son çıktı değişkeni ile son bulur. Bağımlı değişkenler ya sürekli ya da ayrık sayısal değişkenlerdir.
+Sınıflandırma
+Sınıflandırma, bir öncü değişken ile başlayan verilerin düzenlenişini gösteren bir şemaya ulaşmak için kullanılan bir tekniktir. Bağımlı değişkenler, verilerin gruplar halinde sınıflandırılmasıdır. Sınıflandırma ağacı, mevcut bağımlı değişkenlerin belirlediği şekilde iki gruba ayrılan bağımsız değişken ile başlar. Bu, bağımlı değişkenlerin getirdiği kategorizasyon şeklinde verilen cevapları aydınlatmak içindir.
+
+Özet olarak:
+• Sınıflandırma ağaçlarının kategorik ve sırasız bağımlı değişkenleri vardır.
+• Regresyon ağaçları, sürekli değerler veya sıralı tam değerler olan bağımlı değişkenlere sahiptir.
